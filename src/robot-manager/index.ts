@@ -1,4 +1,4 @@
-import {Robot as RobotSimulator} from "../robot-simulator";
+import {Robot as RobotSimulator} from "../robot-simulator/robot-simulator";
 
 export default class RobotManager {
   private robots: Set<RobotSimulator> = new Set();
